@@ -78,17 +78,7 @@ export const Crud = () => {
               display: "flex",
               justifyContent: "center",
             }}
-          >
-            <label htmlFor="Id">
-              <input
-                type="Number"
-                placeholder="Id"
-                style={{ textAlign: "center" }}
-                onChange={(e) => setId(e.target.value)}
-                value={id}
-              ></input>
-            </label>
-          </div>
+          ></div>
           <br></br>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <label htmlFor="Name">
